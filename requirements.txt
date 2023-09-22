@@ -1,5 +1,7 @@
+scikit-learn
 matplotlib.pyplot 
 pandas 
 seaborn 
 streamlit 
+altair
 plotly.express 
