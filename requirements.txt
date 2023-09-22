@@ -1,5 +1,3 @@
-matplotlib.pyplot
 pandas 
-seaborn 
 streamlit
 plotly.express 
