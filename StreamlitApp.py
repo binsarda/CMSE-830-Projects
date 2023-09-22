@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
 import pandas as pd
-import seaborn as sns
 import streamlit as st
 import plotly.express as px
 
@@ -81,4 +79,3 @@ if st.button("Hide Bar Chart"):
 heatmap_fig = px.density_heatmap(df, x=xv, y=yv,marginal_x="histogram", marginal_y="histogram")
 st.plotly_chart(heatmap_fig, theme=None)
 st.write("Done until this!!!")
-
